@@ -22,8 +22,14 @@
         </config-file>
 
         <source-file src="src/ios/AdyenPlugin.swift" />
-
-        <framework src="Adyen" type="podspec" spec="1.16.0" />
+        <podspec>
+            <config>
+                <source url="https://github.com/CocoaPods/Specs.git"/>
+            </config>
+            <pods>
+                <pod name="Adyen" spec="1.16.0" />
+            </pods>
+        </pod>
         
         <dependency id="cordova-plugin-add-swift-support" version="1.7.1" />
 
