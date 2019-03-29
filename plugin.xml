@@ -29,7 +29,7 @@
             <pods>
                 <pod name="Adyen" spec="1.16.0" />
             </pods>
-        </pod>
+        </podspec>
         
         <dependency id="cordova-plugin-add-swift-support" version="1.7.1" />
 
