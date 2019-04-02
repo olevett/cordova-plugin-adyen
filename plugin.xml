@@ -26,7 +26,7 @@
                 <source url="https://github.com/CocoaPods/Specs.git"/>
             </config>
             <pods>
-                <pod name="Adyen" spec="~>  1.16.0" />
+                <pod name="Adyen" spec="~>  1.16.0" swift-version="4.2" />
             </pods>
         </podspec>
         
