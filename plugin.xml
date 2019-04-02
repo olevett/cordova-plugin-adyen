@@ -31,8 +31,6 @@
         </podspec>
         
         <source-file src="src/ios/AdyenPlugin.swift" />
-       
-        <dependency id="cordova-plugin-add-swift-support" version="1.7.1" />
 
         <hook type="before_compile" src="scripts/fixCB12212.js" />
     </platform>
