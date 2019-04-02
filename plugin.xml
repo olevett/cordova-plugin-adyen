@@ -35,7 +35,7 @@
         </config-file>
         
         <source-file src="src/ios/AdyenPlugin.swift" />
-        <framework src="Adyen" type="podspec" spec="~> 1.16.0"/>
+        <framework src="Adyen" type="podspec" spec="1.16.0"/>
 
 
         <hook type="before_compile" src="scripts/fixCB12212.js" />
