@@ -20,7 +20,9 @@
               <source url="https://github.com/CocoaPods/Specs.git" />
             </config>
             <pods use-frameworks="true">
-                <pod name="Adyen" spec="~>  1.16.0" swift-version="4.2" />
+                <pod name="Adyen" spec="~>  1.16.0" />
+                  <pod name="AcknowList" />
+
             </pods>
         </podspec>
     </platform>
@@ -31,8 +33,6 @@
                 <param name="ios-package" value="AdyenPlugin" />
             </feature>
         </config-file>
-             
-       
         
         <source-file src="src/ios/AdyenPlugin.swift" />
 
